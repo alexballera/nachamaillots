@@ -24,7 +24,7 @@ const NavItems = {
     nf: 'No Encontrado'
   },
   title: {
-    home: 'Inicio',
+    home: 'Nacha Maillots',
     view1: 'Quienes Somos',
     view2: 'View 2',
     view3: 'Catálogo',
