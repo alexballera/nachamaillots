@@ -8,8 +8,6 @@ const Desktop = yo`
   <li class="waves-effect waves-blue" id="li-${NavItems.id.id1}"><a href=${NavItems.links.link1} >${NavItems.items.item1}</a></li>
   <li class="waves-effect waves-blue" id="li-${NavItems.id.id2}"><a href=${NavItems.links.link2}>${NavItems.items.item2}</a></li>
   <li class="waves-effect waves-blue" id="li-${NavItems.id.id3}"><a href=${NavItems.links.link3}>${NavItems.items.item3}</a></li>
-  <li class="waves-effect waves-blue" id="li-${NavItems.id.id4}"><a href=${NavItems.links.link4}>${NavItems.items.item4}</a></li>
-  <li class="waves-effect waves-blue" id="li-${NavItems.id.id5}"><a href=${NavItems.links.link5} >${NavItems.items.item5}</a></li>
 </ul>
 `
 const DesktopDropdown = yo`
@@ -19,8 +17,6 @@ const DesktopDropdown = yo`
   <li class="waves-effect waves-blue" id="li-${NavItems.id.id1}"><a href=${NavItems.links.link1} >${NavItems.items.item1}</a></li>
   <li class="waves-effect waves-blue" id="li-${NavItems.id.id2}"><a href=${NavItems.links.link2}>${NavItems.items.item2}</a></li>
   <li class="waves-effect waves-blue" id="li-${NavItems.id.id3}"><a href=${NavItems.links.link3}>${NavItems.items.item3}</a></li>
-  <li class="waves-effect waves-blue" id="li-${NavItems.id.id4}"><a href=${NavItems.links.link4}>${NavItems.items.item4}</a></li>
-  <li class="waves-effect waves-blue" id="li-${NavItems.id.id5}"><a href=${NavItems.links.link5} >${NavItems.items.item5}</a></li>
 </ul>
 `
 export {Desktop, DesktopDropdown}
