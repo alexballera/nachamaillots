@@ -17,21 +17,18 @@ const id = 'view'
 
 const NavItems = {
   items: {
-    home: 'Home',
-    item1: 'View 1',
-    item2: 'View 2',
-    item3: 'View 3',
-    item4: 'View 4',
-    item5: 'View 5',
+    home: 'Inicio',
+    item1: 'Quienes Somos',
+    item2: 'Catálogo',
+    item3: 'Contacto',
     nf: 'No Encontrado'
   },
   title: {
-    home: 'Home',
-    view1: 'View 1',
+    home: 'Inicio',
+    view1: 'Quienes Somos',
     view2: 'View 2',
-    view3: 'View 3',
-    view4: 'View 4',
-    view5: 'View 5',
+    view3: 'Catálogo',
+    view4: 'Contacto',
     nf: 'No Encontrado'
   },
   id: {
