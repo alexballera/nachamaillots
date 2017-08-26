@@ -2,8 +2,8 @@
 
 // Custom Materialize
 $primary-color: rgb(218, 8, 126);
-$secondary-color: rgb(39, 198, 193);
-$primary-hover: rgba(218, 8, 126, .7);
+$secondary-color: rgb(160, 9, 92);
+$primary-hover: rgb(160, 9, 92);
 
 $white: #fff;
 
@@ -18,7 +18,7 @@ $navbar-font-color: $color-fonts;
 
 .waves-effect {
 
-  &.waves-blue .waves-ripple {
-    background-color: $primary-color;
+  &.waves-custom .waves-ripple {
+    background-color: rgb(206, 92, 155);
   }
 }
