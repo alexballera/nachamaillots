@@ -4,7 +4,7 @@ import {home} from '../createHome'
 
 const Section1 = yo`
 <section className="container">
-  <main className="row" >  
+  <div className="row" >  
     <picture className="col hide-on-med-and-down l4">
       <img src="http://lorempixel.com/300/600/sports/" />
     </picture>
@@ -28,7 +28,7 @@ const Section1 = yo`
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </section>
 `
 export default () => {
