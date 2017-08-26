@@ -5,9 +5,7 @@ import JqueryOptions from './jquery.options'
 import {
   Slide1,
   Slide2,
-  Slide3,
-  Slide4,
-  Slide5
+  Slide3
 } from './slides'
 
 const Slider = yo`
@@ -16,8 +14,6 @@ const Slider = yo`
     ${Slide1}
     ${Slide2}
     ${Slide3}
-    ${Slide4}
-    ${Slide5}
   </ul>
 </div>
 `
