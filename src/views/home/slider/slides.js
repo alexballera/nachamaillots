@@ -4,7 +4,8 @@ import yo from 'yo-yo'
 const data = {
   class: {
     div: 'caption center-align',
-    h3: 'light grey-text text-lighten-3'
+    h3: 'light pink-text text-lighten-3',
+    p: 'pink-text'
   },
   slide1: {
     img: {
@@ -37,7 +38,7 @@ const Slide1 = yo`
   <img src=${data.slide1.img.src} alt=${data.slide1.img.alt} />
   <div className=${data.class.div}>
     <h3 className=${data.class.h3}>${data.slide1.title}</h3>
-    <p>${data.slide1.text}</p>
+    <p className=${data.class.p}>${data.slide1.text}</p>
   </div>
 </li>
 `
@@ -46,7 +47,7 @@ const Slide2 = yo`
   <img src=${data.slide2.img.src} alt=${data.slide2.img.alt} />
   <div className=${data.class.div}>
     <h3 className=${data.class.h3}>${data.slide2.title}</h3>
-    <p>${data.slide2.text}</p>
+    <p className=${data.class.p}>${data.slide2.text}</p>
   </div>
 </li>
 `
@@ -55,7 +56,7 @@ const Slide3 = yo`
   <img src=${data.slide3.img.src} alt=${data.slide3.img.alt} />
   <div className=${data.class.div}>
     <h3 className=${data.class.h3}>${data.slide3.title}</h3>
-    <p>${data.slide3.text}</p>
+    <p className=${data.class.p}>${data.slide3.text}</p>
   </div>
 </li>
 `
