@@ -1,7 +1,7 @@
 {
-  "name": "cova-solutions",
+  "name": "nacha-maillots",
   "version": "1.0.0",
-  "description": "Maquetado de Cova Solutions",
+  "description": "Maquetado de Nacha Maillots",
   "main": "gulpfile.babel.js",
   "scripts": {
     "test": "standard",
