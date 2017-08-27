@@ -3,9 +3,9 @@ import yo from 'yo-yo'
 
 const data = {
   class: {
-    div: 'caption center-align',
-    h3: 'light pink-text text-lighten-3',
-    p: 'pink-text'
+    div: 'caption center-align slide-text',
+    h3: 'light white-text',
+    p: 'white-text'
   },
   slide1: {
     img: {
