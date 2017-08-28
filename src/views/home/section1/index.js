@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 import {home} from '../createHome'
 
 const Section1 = yo`
-<section className="container">
+<section className="container pink lighten-5">
   <div className="row valign-wrapper" >  
     <picture className="col hide-on-med-and-down l5">
       <img src="http://lorempixel.com/300/600/sports/" />

@@ -3,8 +3,8 @@ import yo from 'yo-yo'
 import {NavItems} from '../../components/navigation'
 
 const elem = yo`
-<section id="seccion-${NavItems.id.id1}" className="white-text">
-  <div id="${NavItems.id.id1}" className="container">
+<section id="seccion-${NavItems.id.id1}" className="container pink lighten-5">
+  <div id="${NavItems.id.id1}">
     <div className="row valign-wrapper">
       <div className="col hide-on-med-and-down l4">
         <img src="http://lorempixel.com/300/600/sports/" />
