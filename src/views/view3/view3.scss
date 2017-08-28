@@ -2,8 +2,12 @@
     h3.yellowtail-fonts {
         font-size: 2.25rem;
         margin: 1rem 0;
+        padding: 0;
         @media #{$medium-and-up} {
             font-size: 3rem;
         }
+    }
+    address {
+        margin-bottom: 1rem;
     }
 }
