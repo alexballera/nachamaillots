@@ -8,7 +8,7 @@ const elem = yo`
     <h2 className="handlee-fonts white-text">Catálogo</h2>
     <div class="divider"></div>
     <div className="row section">
-      <h3 className="col s12 yellowtail-fonts white-text">Maillots Vintage</h3>
+      <h3 className="col s12 handlee-fonts white-text">Maillots Vintage</h3>
       <div className="col s6 l2">
         <img src="images/maillot-vintage1.jpg" />
       </div>

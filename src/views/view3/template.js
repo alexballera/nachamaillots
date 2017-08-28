@@ -6,7 +6,7 @@ const elem = yo`
 <section id="seccion-${NavItems.id.id3}">
   <div className="container" id="${NavItems.id.id3}">
     <div className="row">
-      <h3 className="col s12 yellowtail-fonts white-text">Contacto</h3>
+      <h3 className="col s12 handlee-fonts white-text">Contacto</h3>
       <address className="white-text">
         Calle Santiago  Nro 1  Local , 50180 Utego, Zaragoza.
         Telf.: <a href="tel:876034189">876034189</a>
