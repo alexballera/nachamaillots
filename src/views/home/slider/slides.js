@@ -20,7 +20,7 @@ const data = {
   },
   slide2: {
     img: {
-      src: 'images/banner-animal-print.jpg',
+      src: 'images/banner-animal-print.png',
       alt: 'Animal Print'
     },
     title: 'Animal Print',

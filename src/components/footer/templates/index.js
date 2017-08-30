@@ -7,7 +7,7 @@ const elem = yo`
     <div class="row valign-wrapper">
       <div class="col l4 s12">
         <picture>
-          <img src="images/logo.jpg" />
+          <img src="images/logo.png" />
         </picture>
       </div>
       <div class="col l6 offset-l2 s12">
