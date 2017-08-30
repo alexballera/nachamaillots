@@ -10,7 +10,7 @@ const elem = yo`
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Vintage</h3>
       <div className="col s6 l2">
-        <img src="images/maillot-vintage1.jpg" />
+        <img src="images/maillot-vintage1.png" />
       </div>
       <div className="col s6 l2">
         <img src="images/maillot-vintage2.jpg" />
@@ -23,17 +23,17 @@ const elem = yo`
         <img src="images/maillot-animal1.jpg" />
       </div>
       <div className="col s6 l2">
-        <img src="images/maillot-animal2.jpg" />
+        <img src="images/maillot-animal2.png" />
       </div>
     </div>
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Abstracto</h3>
       <div className="col s6 l2">
-        <img src="images/maillot-abstracto1.jpg" />
+        <img src="images/maillot-abstracto1.png" />
       </div>
       <div className="col s6 l2">
-        <img src="images/maillot-abstracto2.jpg" />
+        <img src="images/maillot-abstracto2.png" />
       </div>
     </div>
     <div class="divider"></div>
