@@ -6,9 +6,9 @@ const elem = yo`
 <section id="seccion-${NavItems.id.id1}" className="container pink lighten-5">
   <div id="${NavItems.id.id1}">
     <div className="row valign-wrapper">
-      <div className="col hide-on-med-and-down l4">
-        <img src="http://lorempixel.com/300/600/sports/" />
-      </div>
+      <picture className="col hide-on-med-and-down l4">
+        <img src="images/silueta-ppal-nacha.png" />
+      </picture>
       <div className="col s12 l8">
         <div className="row">
           <div className="col s12">

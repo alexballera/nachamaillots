@@ -6,7 +6,7 @@ const Section1 = yo`
 <section className="container pink lighten-5">
   <div className="row valign-wrapper" >  
     <picture className="col hide-on-med-and-down l5">
-      <img src="http://lorempixel.com/300/600/sports/" />
+      <img src="images/silueta-ppal-nacha.png" />
     </picture>
     <div className="col s12 l7">
       <div className="row content">
