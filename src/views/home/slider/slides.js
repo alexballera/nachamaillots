@@ -51,11 +51,6 @@ const Slide1 = yo`
 const Slide2 = yo`
 <li>
   <img src=${data.slide2.img.src} alt=${data.slide2.img.alt} />
-  <div className=${data.class.div}>
-    <h3 className=${data.class.h3}>${data.slide2.title}</h3>
-    <p className=${data.class.p}>${data.slide2.text}</p>
-    <a className=${data.class.a} href=${NavItems.links.link2}>${data.slide1.a}</a>
-  </div>
 </li>
 `
 const Slide3 = yo`
