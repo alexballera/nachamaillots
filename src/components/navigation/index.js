@@ -1,0 +1,58 @@
+'use strict'
+
+import hideViews from './hideViews'
+import initHome from './initHome'
+import showHome from './showHome'
+import showView1 from './showView1'
+import showView2 from './showView2'
+import showView3 from './showView3'
+import notFound from './notFound'
+import page from 'page'
+
+const baseUri = '/'
+
+const id = 'view'
+
+const NavItems = {
+  items: {
+    home: 'Inicio',
+    item1: 'Quienes Somos',
+    item2: 'Catálogo',
+    item3: 'Contacto',
+    nf: 'No Encontrado'
+  },
+  title: {
+    home: 'Nacha Maillots',
+    view1: 'Quienes Somos',
+    view2: 'Catálogo',
+    view3: 'Contacto',
+    nf: 'No Encontrado'
+  },
+  id: {
+    home: 'home',
+    id1: id + '1',
+    id2: id + '2',
+    id3: id + '3',
+    nf: 'not-found'
+  },
+  links: {
+    home: baseUri,
+    link1: baseUri + 'quienes-somos',
+    link2: baseUri + 'catalogo',
+    link3: baseUri + 'contacto',
+    nf: '*'
+  }
+}
+
+const Navigation = () => {
+  hideViews()
+  initHome()
+  page(NavItems.links.home, showHome)
+  page(NavItems.links.link1, showView1)
+  page(NavItems.links.link2, showView2)
+  page(NavItems.links.link3, showView3)
+  page(NavItems.links.nf, notFound)
+  page()
+}
+
+export {Navigation, NavItems}
