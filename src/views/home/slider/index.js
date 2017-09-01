@@ -9,7 +9,7 @@ import {
 } from './slides'
 
 const Slider = yo`
-<div className="slider fullscreen hide-on-med-and-down" id="sliderHome">
+<div className="slider hide-on-med-and-down" id="sliderHome">
   <ul className="slides">
     ${Slide1}
     ${Slide2}
