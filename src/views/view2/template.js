@@ -1,6 +1,7 @@
 'use strict'
 import yo from 'yo-yo'
 import {NavItems} from '../../components/navigation'
+import {backgroundImageCatalogo} from '../../components/background-images'
 
 const elem = yo`
 <section id="seccion-${NavItems.id.id2}" className="container pink lighten-5">
@@ -37,6 +38,7 @@ const elem = yo`
       </div>
     </div>
     <div class="divider"></div>
+    ${backgroundImageCatalogo}
   </div>
 </section>
 `

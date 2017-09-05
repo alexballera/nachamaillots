@@ -1,6 +1,7 @@
 'use strict'
 import yo from 'yo-yo'
 import {home} from '../createHome'
+import {backgroundImageHome} from '../../../components/background-images'
 
 const Section1 = yo`
 <section className="container pink lighten-5">
@@ -28,6 +29,7 @@ const Section1 = yo`
         </div>
       </div>
     </div>
+    ${backgroundImageHome}
   </div>
 </section>
 `
