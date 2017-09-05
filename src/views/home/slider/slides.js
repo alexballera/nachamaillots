@@ -16,7 +16,7 @@ const data = {
     },
     title: 'Vintage',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis.',
-    a: 'Ver Catálogo'
+    a: 'Ver Diseños'
   },
   slide2: {
     img: {
@@ -25,7 +25,7 @@ const data = {
     },
     title: 'Animal Print',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis.',
-    a: 'Ver Catálogo'
+    a: 'Ver Diseños'
   },
   slide3: {
     img: {
@@ -34,7 +34,7 @@ const data = {
     },
     title: 'Abstracto',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis.',
-    a: 'Ver Catálogo'
+    a: 'Ver Diseños'
   }
 }
 

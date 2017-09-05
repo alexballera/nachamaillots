@@ -5,7 +5,7 @@ import {NavItems} from '../../components/navigation'
 const elem = yo`
 <section id="seccion-${NavItems.id.id2}" className="container pink lighten-5">
   <div id="${NavItems.id.id2}">
-    <h2 className="handlee-fonts">Catálogo</h2>
+    <h2 className="handlee-fonts">Diseños</h2>
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Vintage</h3>

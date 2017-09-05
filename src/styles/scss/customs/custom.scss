@@ -23,7 +23,7 @@ a {
 .activado {
   background-color: $primary-color;
   a {
-    color: $white;
+    color: $white !important;
   }
 }
 

@@ -17,14 +17,14 @@ const NavItems = {
   items: {
     home: 'Inicio',
     item1: 'Quienes Somos',
-    item2: 'Catálogo',
+    item2: 'Diseños',
     item3: 'Contacto',
     nf: 'No Encontrado'
   },
   title: {
     home: 'Nacha Maillots',
     view1: 'Quienes Somos',
-    view2: 'Catálogo',
+    view2: 'Diseños',
     view3: 'Contacto',
     nf: 'No Encontrado'
   },
@@ -38,7 +38,7 @@ const NavItems = {
   links: {
     home: baseUri,
     link1: baseUri + 'quienes-somos',
-    link2: baseUri + 'catalogo',
+    link2: baseUri + 'disenos',
     link3: baseUri + 'contacto',
     nf: '*'
   }
