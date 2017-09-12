@@ -1,14 +1,10 @@
 #seccion-view1 {
     position: relative;
+    box-sizing: border-box;
+
     .valign-wrapper {
         height: 770px;
     }
-    picture {
-        img {
-            width: 100%;
-        }
-    }
-    box-sizing: border-box;
     h2 {
         font-size: 1.5rem;
         margin: 1rem 0;

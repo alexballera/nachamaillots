@@ -7,7 +7,7 @@ const elem = yo`
 <section id="seccion-${NavItems.id.id1}" className="container pink lighten-5">
   <div id="${NavItems.id.id1}">
     <div className="row valign-wrapper">
-      <picture className="col hide-on-med-and-down l4">
+      <picture className="col hide-on-med-and-down l4 picture-content">
         <img src="images/silueta-ppal-nacha.png" />
       </picture>
       <div className="col s12 l8">

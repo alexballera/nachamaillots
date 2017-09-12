@@ -10,30 +10,30 @@ const elem = yo`
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Vintage</h3>
-      <div className="col s6 l2">
+      <div className="col s12 l3">
         <img className="materialboxed" data-caption="Maillot" src="images/modelo-maillots-1.png" />
       </div>
-      <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot" src="images/modelo-maillots-1.jpg" />
+      <div className="col s12 l3">
+        <img className="materialboxed" data-caption="Maillot" src="images/modelo-maillots-1.png" />
       </div>
     </div>
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Animal Print</h3>
-      <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Animal" src="images/modelo-maillots-2.jpg" />
+      <div className="col s12 l3">
+        <img className="materialboxed" data-caption="Maillot Animal" src="images/modelo-maillots-2.png" />
       </div>
-      <div className="col s6 l2">
+      <div className="col s12 l3">
         <img className="materialboxed" data-caption="Maillot Animal" src="images/modelo-maillots-2.png" />
       </div>
     </div>
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Abstracto</h3>
-      <div className="col s6 l2">
+      <div className="col s12 l3">
         <img className="materialboxed" data-caption="Maillot Abstracto" src="images/modelo-maillots-3.png" />
       </div>
-      <div className="col s6 l2">
+      <div className="col s12 l3">
         <img className="materialboxed" data-caption="Maillot Abstracto" src="images/modelo-maillots-3.png" />
       </div>
     </div>
