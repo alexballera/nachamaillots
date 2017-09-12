@@ -11,30 +11,30 @@ const elem = yo`
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Vintage</h3>
       <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Vintage" src="images/maillot-vintage1.png" />
+        <img className="materialboxed" data-caption="Maillot" src="images/modelo-maillots-1.png" />
       </div>
       <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Vintage" src="images/maillot-vintage2.jpg" />
+        <img className="materialboxed" data-caption="Maillot" src="images/modelo-maillots-1.jpg" />
       </div>
     </div>
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Animal Print</h3>
       <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Animal" src="images/maillot-animal1.jpg" />
+        <img className="materialboxed" data-caption="Maillot Animal" src="images/modelo-maillots-2.jpg" />
       </div>
       <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Animal" src="images/maillot-animal2.png" />
+        <img className="materialboxed" data-caption="Maillot Animal" src="images/modelo-maillots-2.png" />
       </div>
     </div>
     <div class="divider"></div>
     <div className="row section">
       <h3 className="col s12 yellowtail-fonts">Maillots Abstracto</h3>
       <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Abstracto" src="images/maillot-abstracto1.png" />
+        <img className="materialboxed" data-caption="Maillot Abstracto" src="images/modelo-maillots-3.png" />
       </div>
       <div className="col s6 l2">
-        <img className="materialboxed" data-caption="Maillot Abstracto" src="images/maillot-abstracto2.png" />
+        <img className="materialboxed" data-caption="Maillot Abstracto" src="images/modelo-maillots-3.png" />
       </div>
     </div>
     <div class="divider"></div>
