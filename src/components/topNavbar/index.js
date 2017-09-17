@@ -2,7 +2,6 @@
 import yo from 'yo-yo'
 import {Desktop} from './templates/desktop'
 import sideNav from './templates/sideNav'
-// import { DropdownDesktop, DropdownMobile } from './templates/dropdown'
 import JqueryOptions from './templates/jquery.options'
 import {NavItems} from '../navigation'
 
@@ -22,12 +21,6 @@ const elem = yo`
   ${sideNav}
 </div>
 `
-/**
- * En caso de Dropdown agregar luego de ${sideNav}:
- * ${DropdownDesktop}
- * ${DropdownMobile}
- * y en ${Desktop} agregar ${DesktopDropdown}
- */
 export default () => {
   document.getElementById('navbar-top').appendChild(elem)
   JqueryOptions()
