@@ -11,7 +11,7 @@ const elem = yo`
         </picture>
       </div>
       <div class="col l6 offset-l2 s12">
-        <h2 class="white-text yellowtail-fonts">Maillots Que Impresionan!</h2>
+        <h2 class="yellowtail-fonts">Maillots Que Impresionan!</h2>
       </div>
     </div>
   </div>
