@@ -62,3 +62,16 @@ a {
 .blue-grey.lighten-5 {
   background-color: $background-color-container !important;
 }
+
+.show-extra-large-and-up {
+  display: none;
+  @media #{$extra-large-and-up} {
+    display: block;
+  }
+}
+.hide-extra-large-and-up {
+  display: block;
+  @media #{$extra-large-and-up} {
+    display: none;
+  }
+}
