@@ -5,7 +5,7 @@ import {backgroundImageCatalogo} from '../../components/background-images'
 import data from './data.js'
 
 const elem = yo`
-<section id="seccion-${NavItems.id.id2}" className="container pink lighten-5">
+<section id="seccion-${NavItems.id.id2}" className="container grey lighten-5">
   <div id="${NavItems.id.id2}">
     <h2 className="handlee-fonts">Diseños</h2>
     <div class="divider"></div>

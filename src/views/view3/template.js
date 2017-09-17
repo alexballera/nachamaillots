@@ -5,14 +5,14 @@ import {backgroundImageContacto} from '../../components/background-images'
 
 const elem = yo`
 <section id="seccion-${NavItems.id.id3}">
-  <div className="container pink lighten-5" id="${NavItems.id.id3}">
+  <div className="container grey lighten-5" id="${NavItems.id.id3}">
     <div className="row">
       <h3 className="col s12 handlee-fonts">Contacto</h3>
       <address>
         Calle Santiago  Nro 1  Local , 50180 Utego, Zaragoza.
         Telf.: <a href="tel:876034189">876034189</a>
       </address>
-      <div className="s12">
+      <div className="s12 center-align">
         <iframe
           width="800"
           height="650"

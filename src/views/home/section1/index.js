@@ -4,7 +4,7 @@ import {home} from '../createHome'
 import {backgroundImageHome} from '../../../components/background-images'
 
 const Section1 = yo`
-<section className="container pink lighten-5">
+<section className="container grey lighten-5">
   <div className="row valign-wrapper" >  
     <picture className="col hide-on-med-and-down l5 picture-content">
       <img src="images/silueta-ppal-nacha.png" />

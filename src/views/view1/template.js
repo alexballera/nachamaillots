@@ -4,7 +4,7 @@ import {NavItems} from '../../components/navigation'
 import {backgroundImageAcerca} from '../../components/background-images'
 
 const elem = yo`
-<section id="seccion-${NavItems.id.id1}" className="container pink lighten-5">
+<section id="seccion-${NavItems.id.id1}" className="container grey lighten-5">
   <div id="${NavItems.id.id1}">
     <div className="row valign-wrapper">
       <picture className="col hide-on-med-and-down l4 picture-content">
