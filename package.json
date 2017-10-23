@@ -70,6 +70,7 @@
     "yo-yo": "^1.4.1"
   },
   "dependencies": {
+    "@types/express": "^4.0.37",
     "jquery": "^3.2.1",
     "jquery-ui": "^1.12.1",
     "jquery-ui-dist": "^1.12.1",
