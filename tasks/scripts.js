@@ -19,7 +19,5 @@ gulp.task('build:scripts', () => {
     .pipe(gulp.dest('./build/scripts'))
     .pipe(uglify())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('./src/scripts'))
-    .pipe(gulp.dest('./build/scripts'))
     .pipe(gulp.dest('./public/scripts'))
 })

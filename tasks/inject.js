@@ -17,13 +17,9 @@ gulp.task('inject', () => {
       // vendorCSS,
       appCSS
     ],
-      {
-        read: false
-      }
-  ),
-      {
-        relative: true
-      }
-  ))
+    { read: false }
+    ),
+    { relative: true }
+    ))
     .pipe(gulp.dest('./src'))
 })

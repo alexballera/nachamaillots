@@ -25,6 +25,5 @@ gulp.task('build:images', () => {
         { removeEmptyAttrs: false } // don't remove Empty Attributes from the SVG
       ]
     })))
-    .pipe(gulp.dest('./build/images'))
     .pipe(gulp.dest('./public/images'))
 })
