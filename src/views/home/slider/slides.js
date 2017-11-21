@@ -1,6 +1,5 @@
 'use strict'
 import yo from 'yo-yo'
-import {NavItems} from '../../../components/navigation'
 
 const data = {
   class: {

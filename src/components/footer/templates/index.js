@@ -17,7 +17,14 @@ const elem = yo`
   </div>
   <div class="footer-copyright">
     <div class="container">
-      © 2017 Copyright Nacha Maillots
+      <div class="row">
+        <div class="col s12 l4">
+          © 2017 Copyright Nacha Maillots
+        </div>
+        <div class="col s12 l8 right-align">
+          <a href="/legal.html">Legal</a>
+        </div>
+      </div>
     </div>
   </div>
 </footer>

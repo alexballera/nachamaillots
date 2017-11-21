@@ -51,7 +51,7 @@ const Navigation = () => {
   page(NavItems.links.link1, showView1)
   page(NavItems.links.link2, showView2)
   page(NavItems.links.link3, showView3)
-  page(NavItems.links.nf, notFound)
+  //page(NavItems.links.nf, notFound)
   page()
 }
 

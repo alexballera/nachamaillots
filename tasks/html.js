@@ -13,4 +13,6 @@ gulp.task('html', () => {
 gulp.task('copy:html', () => {
   gulp.src('./src/index.html')
     .pipe(gulp.dest('./build'))
+  gulp.src('./src/legal.html')
+    .pipe(gulp.dest('./public'))
 })
