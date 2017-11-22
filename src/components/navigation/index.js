@@ -6,6 +6,7 @@ import showHome from './showHome'
 import showView1 from './showView1'
 import showView2 from './showView2'
 import showView3 from './showView3'
+import showLegal from './showLegal'
 import notFound from './notFound'
 import page from 'page'
 
@@ -19,6 +20,7 @@ const NavItems = {
     item1: 'Quienes Somos',
     item2: 'Diseños',
     item3: 'Contacto',
+    legal: 'Legal',
     nf: 'No Encontrado'
   },
   title: {
@@ -26,6 +28,7 @@ const NavItems = {
     view1: 'Quienes Somos',
     view2: 'Diseños',
     view3: 'Contacto',
+    legal: 'Legal',
     nf: 'No Encontrado'
   },
   id: {
@@ -33,6 +36,7 @@ const NavItems = {
     id1: id + '1',
     id2: id + '2',
     id3: id + '3',
+    legal: id + '-legal',
     nf: 'not-found'
   },
   links: {
@@ -40,6 +44,7 @@ const NavItems = {
     link1: baseUri + 'quienes-somos',
     link2: baseUri + 'disenos',
     link3: baseUri + 'contacto',
+    legal: baseUri + 'legal',
     nf: '*'
   }
 }
@@ -51,7 +56,8 @@ const Navigation = () => {
   page(NavItems.links.link1, showView1)
   page(NavItems.links.link2, showView2)
   page(NavItems.links.link3, showView3)
-  //page(NavItems.links.nf, notFound)
+  page(NavItems.links.legal, showLegal)
+  page(NavItems.links.nf, notFound)
   page()
 }
 

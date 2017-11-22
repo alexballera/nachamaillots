@@ -1,5 +1,6 @@
 'use strict'
 import yo from 'yo-yo'
+import {NavItems} from '../../navigation'
 
 const elem = yo`
 <footer class="page-footer">
@@ -22,7 +23,7 @@ const elem = yo`
           © 2017 Copyright Nacha Maillots
         </div>
         <div class="col s12 l8 right-align">
-          <a href="/legal.html">Legal</a>
+          <a class="waves-effect waves-custom" href=${NavItems.links.legal} >${NavItems.items.legal}</a>
         </div>
       </div>
     </div>

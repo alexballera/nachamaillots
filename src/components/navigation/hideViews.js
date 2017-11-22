@@ -15,6 +15,7 @@ export default () => {
       view3: '#seccion-' + `${NavItems.id.id3}`,
       view4: '#seccion-' + `${NavItems.id.id4}`,
       view5: '#seccion-' + `${NavItems.id.id5}`,
+      legal: '#seccion-' + `${NavItems.id.legal}`,
       nf: '#seccion-' + `${NavItems.id.nf}`
     },
     li: {
@@ -40,6 +41,8 @@ export default () => {
 
   $app.find(id.seccion.view5).hide()
   $app.find(id.li.view5).removeClass('activado')
+
+  $app.find(id.seccion.legal).hide()
 
   $app.find(id.seccion.nf).hide()
 }
