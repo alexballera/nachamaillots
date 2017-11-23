@@ -7,8 +7,11 @@
   }
 
   .button-collapse {
-    .material-icons:hover {
+    .material-icons {
       color: $primary-color;
+      &:hover {
+        color: $color-hover;
+      }
     }
   }
 
